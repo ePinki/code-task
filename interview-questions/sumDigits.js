@@ -23,7 +23,7 @@ function sumDigits(number) {
 
 
 //ES6
-const sumDigits = number => {
+const sumDigits = (number) => {
   Math.abs(number)
   .toString()
   .split('')
