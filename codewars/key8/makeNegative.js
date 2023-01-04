@@ -1,7 +1,7 @@
 // В этом простом задании вам дается число, и вы должны сделать его отрицательным. А может быть, число уже отрицательное?
 
 
-//1 
+//Base
 function makeNegative(num) {
   let number = Math.sign(num)
 
@@ -14,13 +14,13 @@ function makeNegative(num) {
 }
 
 
-//2
+//Advanced 
 function makeNegative(num) {
   return -Math.abs(num);
 }
 
 
-//3
+//Advanced 
 function makeNegative(num) {
   return num < 0 ? num : -num;
 }
