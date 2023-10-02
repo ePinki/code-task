@@ -16,3 +16,6 @@ function productArray(numbers) {
 }
 
 console.log(productArray([3, 27, 4, 2]));
+
+
+
